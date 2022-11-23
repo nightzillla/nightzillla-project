@@ -16,7 +16,7 @@ function Gallery() {
   return (
     <>
     <GalleryNavBar/>
-    {/* <div className="container">
+    <div className="img-container">
       <div className="content">
         <div className="wrapper">
           <div className="box postcard">
@@ -64,7 +64,7 @@ function Gallery() {
           </div>
         </div>
       </div>
-    </div> */}
+    </div>
     {/* <h1 className="portfolioHOne">nightzillla</h1>
     <img src={World}/> */}
     </>

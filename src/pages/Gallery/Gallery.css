@@ -1,11 +1,18 @@
+/* GALLERY NAVBAR*/
+.galleryNavBar {
+    padding-left: 40px;
+    padding-top: 40px;
+}
+.hOnePortfolio {
+    padding-right: 70px;
+}
 .headerHOne{
     color: black;
     padding-left: 500px;
 }
 .hOnePortfolio{
     color:black;
-    padding-left: 80px;
-    padding-top: 5px;
+    font-family: "SpaceRanger2";
 }
 .p {
     color:#000;
@@ -13,24 +20,13 @@
 .navBarPortfolio {
     padding-bottom: 0!important;
 }
-body {
-    margin: 0;
-    width: 100%;
-    height: 100vh;
-    font-family: 'DM-sans', sans-serif;
-  } 
+
   .header {
     font-size: 24px;
     text-align: center;
   }
   .container {
-    width: 100%;
-    max-width: 1200px;
-    border-radius: 4px;
-    margin: 0 auto;
-    padding-top: 0;
-    padding: 40px 0;
-    margin-top: 0;
+   padding-bottom: 600px;
   }
   
   .content {
@@ -73,4 +69,17 @@ body {
     0 11.2px 13.4px rgba(0, 0, 0, 0.036),
     0 20.9px 25.1px rgba(0, 0, 0, 0.043),
     0 50px 60px rgba(0, 0, 0, 0.06);
+  }
+  /* MEDIA QUERIES */
+  /* small devices */
+  @media only screen and (max-width: 600px){
+
+  }
+  /* medium devices */
+  @media only screen and (min-width: 768px){
+
+  }
+  /* large devices */
+  @media screen and (min-width: 992px) {
+    
   }
