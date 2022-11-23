@@ -1,9 +1,24 @@
-import HomePage from "./pages/HomePage/HomePage";
+import React from 'react';
+import HomePage from './pages/HomePage/HomePage';
+import AboutMe from './pages/AboutMe/AboutMe';
+import Cohort from './pages/Cohort/Cohort';
+import Gallery from './pages/Gallery/Gallery';
+import Projects from './pages/Projects/Projects';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+
 
 function App() {
   return (
     <>
-    <HomePage/>
+    <Router>
+      <Routes>
+        <Route path='/' element={<HomePage/>}/>
+        <Route path='/aboutme' element={<AboutMe/>}/>
+        <Route path='/cohort' element={<Cohort/>}/>
+        <Route path='/gallery' element={<Gallery/>}/>
+        <Route path='/projects' element={<Projects/>}/>
+      </Routes>
+    </Router>
     </>
   );
 }

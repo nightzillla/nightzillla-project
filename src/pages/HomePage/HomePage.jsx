@@ -1,19 +1,23 @@
 import React from 'react'
 import Smoke from '../../video/smoke.mp4'
 import './HomePage.css'
+import NavBar from '../../components/NavBar'
 
 function HomePage() {
   return (
     <>
-    <div className='loading-wrapper'>
-        <div className="video-container">
-            <video autoPlay muted loop className="smoke">
-                <source src={Smoke}/>
-            </video>
-            <div className="welcomeHeader">
-            <h1 className="welcomeFont">nightzillla website coming soon!</h1>
-        </div>
-        </div>    
+    <div className="loading-wrapper">
+      <div className="video-container">
+        <video autoPlay muted loop className="smoke">
+          <source src={Smoke}/>
+        </video>
+      </div>
+      </div>
+      <div>
+      </div>
+      <div className="section">
+      <NavBar/>
+        <h1>welcome to nightzillla</h1> 
     </div>
     </>
   )

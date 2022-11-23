@@ -1,8 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Custom GLOBAL fonts for webpage */
+/* Custom font for webpage */
 @font-face {
   font-family: "SpaceRanger";
   src: local("SpaceRanger"), url("./fonts/SpaceRangerHalftoneItalic.ttf")format("truetype");
@@ -23,3 +22,181 @@
   src: local("Beyno"), url("./fonts/BEYNO.ttf")format("truetype");
   font-weight: bold;
 }
+/* GLOBAL SCOPE */
+/* FONTS */
+h1 {
+  font-family: "SpaceRanger";
+  color:#ffff
+}
+h2 {
+  font-size: 5rem;
+}
+h3 {
+  font-family: "SpaceRanger2";
+  color:#ffff;
+}
+h4{
+  font-family: "SpaceRanger2"
+}
+h6 {
+  font-family: "FastHand"
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.video {
+  position: absolute;
+  width: auto;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Video Component */
+.video-container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video-container video {
+  height: 125%;
+  min-width: 100%;
+  object-fit: cover;
+}
+.loading-wrapper {
+  display: flex;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+/* .dot {
+  border-radius: 50%;
+  align-content: flex-start;
+  position: absolute;
+  top: 100px;
+} */
+.smoke {
+  height: 100%;
+  width: 100%;
+}
+
+.section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.75s, visibilty 0.75s; 
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.video-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+} 
+
+:root {
+  --point-color: rgb(255, 255, 255);
+  --size: 5px;
+}
+
+.loader {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  align-content: center; 
+  justify-content: center;  
+  z-index: 100000;
+  left: 100%;
+}
+
+.loader__element {
+  border-radius: 100%;
+  border: var(--size) solid var(--point-color);
+  margin: calc(var(--size)*2);
+}
+
+.loader__element:nth-child(1) {
+  animation: preloader .6s ease-in-out alternate infinite;
+}
+.loader__element:nth-child(2) {
+  animation: preloader .6s ease-in-out alternate .2s infinite;
+}
+
+.loader__element:nth-child(3) {
+  animation: preloader .6s ease-in-out alternate .4s infinite;
+}
+
+.container {
+  overflow: visible!important;
+}
+@keyframes preloader {
+  100% { transform: scale(2); }
+}
+
+/* Icon */
+.hamburger{
+  bottom:80%;
+  left: 80%;
+  top:60%;
+  margin-left: 90px;
+  z-index: 2;
+}
+.section2 {
+  position: absolute;
+  width: 80%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  transition: opacity 0.75s, visibilty 0.75s; 
+  flex-wrap: wrap;
+  justify-content: center;
+  bottom:30%;
+  left:40%;
+}
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
+}
+.AboutMeText:hover {
+  transform: scale(1.1);
+}
+.GalleryText:hover {
+  transform: scale(1.1);
+}
+.ProjectsText:hover {
+  transform: scale(1.1);
+}
+.BootcampText:hover {
+  transform: scale(1.1);
+}
+/* .dropdown-parent{
+  position: relative;
+}
+.dn-dropdown-menu{
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+.show .dn-dropdown-menu{
+  display: block;
+} */

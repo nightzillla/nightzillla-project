@@ -1,10 +1,10 @@
 /* Main Page */
 .welcomeHeader{
     font-family: "SpaceRanger";
-    position: fixed;
-    z-index: 3000;
     font-size: xx-large;
     color:#ffff;
+    position: fixed;
+    z-index: 3000;
 }
 .container {
     position: absolute;
@@ -12,16 +12,16 @@
     width: 100%;
     height: 100%;
     overflow: visible!important;
-  }
-  .video {
+}
+.video {
     position: absolute;
     width: auto;
     height: 100%;
     top: 0;
     left: 0;
-  }
-  /* Video Component*/
-  .video-container {
+}
+/* Video Component*/
+.video-container {
     position: absolute;
     width: 100%;
     top: 0;
@@ -31,9 +31,57 @@
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .video-container video {
+}
+.video-container video {
     height: 125%;
     min-width: 100%;
     object-fit: cover;
-  }
+}
+/* HAMBURGER ICON NAV BAR*/
+.hamburger{
+    bottom: 80%;
+    left: 80%;
+    top: 60%;
+    margin-left: 90%;
+    z-index: 2;
+}
+/* HOME PAGE NAVBAR */
+.section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.75s, visibilty 0.75s;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section--hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+.section2{
+    position: absolute;
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.75s, visibilty 0.75s;
+    flex-wrap: wrap;
+    justify-content: center;
+    bottom: 30%;
+    left: 40%;
+}
+.dropdown-parent{
+  position: relative;
+}
+.dn-dropdown-menu{
+  position: absolute;
+  top: 100%;
+  display: none;
+}
+.show .dn-dropdown-menu{
+  display: block;
+}
+/* MEDIA QUERIES*/
+
