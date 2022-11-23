@@ -16,8 +16,8 @@ function NavBar() {
     
       return (
         <div className="section2">
-            <div data-dropdown="parent" class={click ? ("dropdown-parent show") : ("dropdown-parent")}>
-                <div data-dropdown="toggle" class="dropdown-toggle">
+            <div data-dropdown="parent" className={click ? ("dropdown-parent show") : ("dropdown-parent")}>
+                <div data-dropdown="toggle" className="dropdown-toggle">
                     <div className="hamburgerIconWrapper">
                         <img className="hamburger"onClick={handlerChange} src={pngwing} />
                     </div>
