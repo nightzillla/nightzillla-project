@@ -38,6 +38,7 @@
     object-fit: cover;
 }
 /* HAMBURGER ICON NAV BAR*/
+/* Icon */
 .hamburger{
     bottom: 80%;
     left: 80%;
@@ -76,12 +77,32 @@
   position: relative;
 }
 .dn-dropdown-menu{
-  position: absolute;
-  top: 100%;
-  display: none;
+    position: absolute;
+    top: 100%;
+    display: none;
 }
 .show .dn-dropdown-menu{
-  display: block;
+    display: block;
+}
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+  }
+/* HOVER FONTS */
+.AboutMeText:hover {
+    transform: scale(1.1);
+}
+.GalleryText:hover {
+    transform: scale(1.1);
+}
+.ProjectsText:hover {
+    transform: scale(1.1);
+}
+.BootcampText:hover {
+    transform: scale(1.1);
+}
+.cohortText:hover{
+    transform: scale(1.1);
 }
 /* MEDIA QUERIES*/
 

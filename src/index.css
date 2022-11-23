@@ -114,38 +114,6 @@ h6 {
   width: 100%;
 } 
 
-:root {
-  --point-color: rgb(255, 255, 255);
-  --size: 5px;
-}
-
-.loader {
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-  align-content: center; 
-  justify-content: center;  
-  z-index: 100000;
-  left: 100%;
-}
-
-.loader__element {
-  border-radius: 100%;
-  border: var(--size) solid var(--point-color);
-  margin: calc(var(--size)*2);
-}
-
-.loader__element:nth-child(1) {
-  animation: preloader .6s ease-in-out alternate infinite;
-}
-.loader__element:nth-child(2) {
-  animation: preloader .6s ease-in-out alternate .2s infinite;
-}
-
-.loader__element:nth-child(3) {
-  animation: preloader .6s ease-in-out alternate .4s infinite;
-}
-
 .container {
   overflow: visible!important;
 }
@@ -154,13 +122,6 @@ h6 {
 }
 
 /* Icon */
-.hamburger{
-  bottom:80%;
-  left: 80%;
-  top:60%;
-  margin-left: 90px;
-  z-index: 2;
-}
 .section2 {
   position: absolute;
   width: 80%;
@@ -173,22 +134,7 @@ h6 {
   bottom:30%;
   left:40%;
 }
-.text-link {
-  color: inherit;
-  text-decoration: inherit;
-}
-.AboutMeText:hover {
-  transform: scale(1.1);
-}
-.GalleryText:hover {
-  transform: scale(1.1);
-}
-.ProjectsText:hover {
-  transform: scale(1.1);
-}
-.BootcampText:hover {
-  transform: scale(1.1);
-}
+
 /* .dropdown-parent{
   position: relative;
 }
