@@ -24,7 +24,7 @@ function NavBar() {
                 </div>
                 <div className="dn-dropdown-menu">
                 <Link className='text-link'to="aboutme"><h3 className="AboutMeText">About Me</h3></Link>
-                <Link className='text-link'to="portfolio"><h3 className="PortfolioText">Portfolio</h3></Link>
+                <Link className='text-link'to="gallery"><h3 className="GalleryText">Gallery</h3></Link>
                 <Link className='text-link'to="projects"><h3 className="ProjectsText">Projects</h3></Link>
                 <Link className='text-link'to="cohort"><h3 className="cohortText">Cohort</h3></Link>
                 </div>

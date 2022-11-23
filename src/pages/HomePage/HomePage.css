@@ -1,7 +1,7 @@
 /* Main Page */
 .welcomeHeader{
     font-family: "SpaceRanger";
-    font-size: xx-large;
+    font-size: 40px;
     color:#ffff;
     position: fixed;
     z-index: 3000;
@@ -20,6 +20,10 @@
     top: 0;
     left: 0;
 }
+.smoke {
+    height: 100%;
+    width: 100%;
+}
 /* Video Component*/
 .video-container {
     position: absolute;
@@ -32,6 +36,9 @@
     align-items: center;
     justify-content: center;
 }
+.container {
+    overflow: visible!important;
+  }
 .video-container video {
     height: 125%;
     min-width: 100%;
@@ -41,9 +48,9 @@
 /* Icon */
 .hamburger{
     bottom: 80%;
-    left: 80%;
+    left: 60%;
     top: 60%;
-    margin-left: 90%;
+    margin-left: 50px;
     z-index: 2;
 }
 /* HOME PAGE NAVBAR */
@@ -89,20 +96,38 @@
     text-decoration: inherit;
   }
 /* HOVER FONTS */
+.AboutMeText {
+    font-size: 25px;
+}
 .AboutMeText:hover {
     transform: scale(1.1);
+}
+.GalleryText {
+    font-size: 25px;
 }
 .GalleryText:hover {
     transform: scale(1.1);
 }
+.ProjectsText {
+    font-size: 25px;
+}
 .ProjectsText:hover {
     transform: scale(1.1);
 }
-.BootcampText:hover {
-    transform: scale(1.1);
+.cohortText {
+    font-size: 25px;
 }
-.cohortText:hover{
+.cohortText:hover {
     transform: scale(1.1);
 }
 /* MEDIA QUERIES*/
-
+/* iPhone */
+@media screen and (max-width: 767px) {
+    .welcomeHeader{
+    font-family: "SpaceRanger";
+    font-size: 25px;
+    color:#ffff;
+    position: fixed;
+    z-index: 3000;
+    }
+}

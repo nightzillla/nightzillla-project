@@ -16,8 +16,8 @@ function HomePage() {
       <div>
       </div>
       <div className="section">
-      {/* <NavBar/> */}
-        <h1 className='welcomeHeader'>nightzillla website coming soon!</h1> 
+      <NavBar/>
+        <h1 className='welcomeHeader'>welcome to nightzillla</h1> 
     </div>
     </>
   )
