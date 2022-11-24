@@ -1,65 +1,63 @@
 /* GALLERY NAVBAR*/
 .galleryNavBar {
     padding-left: 40px;
-    padding-top: 40px;
+    padding-top: 30px;
+    display: flex;
 }
-.hOnePortfolio {
-    padding-right: 70px;
+/* FONT SIZE */
+.galleryNightzillaFont {
+    font-family: "SpaceRanger";
 }
-.headerHOne{
-    color: black;
-    padding-left: 500px;
-}
-.hOnePortfolio{
-    color:black;
+.homeGalleryNavBar {
     font-family: "SpaceRanger2";
+    font-size: 20px;
+    padding-right: 10px;
 }
-.p {
-    color:#000;
+.homeGalleryNavBar:hover {
+    transform: scale(1.1)!important;
+    color: black;
 }
-.navBarPortfolio {
-    padding-bottom: 0!important;
+.aboutMeNavBar {
+    font-family: "SpaceRanger2";
+    font-size: 20px;
 }
-
-  .header {
-    font-size: 24px;
-    text-align: center;
-  }
-  .container {
-   padding-bottom: 600px;
-  }
-  
-  .content {
+.aboutMeNavBar:hover{
+    transform: scale(1.1);
+    color: black;
+}
+.cohortNavBar {
+    font-family: "SpaceRanger2";
+    font-size: 20px;
+}
+.cohortNavBar:hover {
+    transform: scale(1.1);
+    color: black;
+}
+.projectNavBar {
+    font-family: "SpaceRanger2";
+    font-size: 20px;
+    padding-right: 20px;
+}
+.projectNavBar:hover {
+    transform: scale(1.1);
+    color: black;
+}
+.img-content {
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
     padding: 0 30px;
-  }
+}
   
-  .wrapper {
+.wrapper {
     width: 33.3%;
     height: 100%;
     padding: 10px;
-  }
+}
   
-  .name {
+.box {
     position: relative;
-    font-size: 16px;
-    display: inline-block;
-  }
-  .name.after{
-    content: '';
-    position: absolute;
-    width: calc(100% + 10px);
-    height: 1px;
-    background-color: #000;
-    bottom: -4px;
-    left: 0;
-  }
-  
-  .box {
-    position: relative;
-    max-height: 400px;
+    max-height: 420px;
     border-radius: 4px;
     overflow: hidden;
     box-shadow:
@@ -69,11 +67,26 @@
     0 11.2px 13.4px rgba(0, 0, 0, 0.036),
     0 20.9px 25.1px rgba(0, 0, 0, 0.043),
     0 50px 60px rgba(0, 0, 0, 0.06);
-  }
+}
   /* MEDIA QUERIES */
   /* small devices */
   @media only screen and (max-width: 600px){
-
+    .galleryNightzillaFont {
+        font-size: 15px;
+    }
+    .homeGalleryNavBar {
+        font-size: 10px;
+    }
+    .aboutMeNavBar {
+        font-size: 10px;
+    }
+    .cohortNavBar {
+        font-size: 10px;
+    }
+    .projectNavBar {
+        font-size: 10px;
+    }
+   
   }
   /* medium devices */
   @media only screen and (min-width: 768px){
@@ -81,5 +94,11 @@
   }
   /* large devices */
   @media screen and (min-width: 992px) {
-    
+    /* Custome Fonts */
+    .galleryNightzillaFont {
+        padding-right: 620px;
+        font-family: "SpaceRanger";
+        font-size: 30px;
+        display: flex;
+    }
   }

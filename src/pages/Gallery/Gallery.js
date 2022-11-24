@@ -17,7 +17,7 @@ function Gallery() {
     <>
     <GalleryNavBar/>
     <div className="img-container">
-      <div className="content">
+      <div className="img-content">
         <div className="wrapper">
           <div className="box postcard">
           <img src={World}/>
@@ -25,7 +25,7 @@ function Gallery() {
         </div>
         <div className="wrapper">
           <div className="box zoom-in">
-          <img src={Sedona}/>
+          <img className='sedona'src={Sedona}/>
           </div>
         </div>
         <div className="wrapper">
@@ -48,7 +48,7 @@ function Gallery() {
           <img src={Inception}/>
           </div>
         </div>
-        <div className="wrapper">
+        <div className="wrapper ">
           <div className="box zoom-in">
           <img src={HTown}/>
           </div>

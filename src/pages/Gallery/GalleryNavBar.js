@@ -6,19 +6,19 @@ import {Link} from 'react-router-dom'
 function GalleryNavBar() {
   return (
     <>
-        <ul className="flex justify-evenly galleryNavBar ">
-            <h1 className="hOnePortfolio pr-12">nightzillla</h1>
-            <li className='flex justify-center'>
+        <ul className="flex justify-evenly justify-center galleryNavBar ">
+            <h1 className="galleryNightzillaFont pr-12">nightzillla</h1>
+            <li>
             <Link to="/" className="homeGalleryNavBar dark:text-gray-400"><h4>Home</h4></Link>
             </li>
-            <li className='aboutMeNavBar hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-gray-400 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent '>
+            <li className='aboutMeNavBar dark:text-gray-400'>
             <Link to="/aboutme"><h4>About Me</h4></Link>
             </li>
-            <li className='flex justify-center'>
-            <Link to="/cohort" className="cohortNavBar hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-gray-400 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><h4>Cohort</h4></Link>
+            <li className='cohortNavBar dark:text-gray-400'>
+            <Link to="/cohort"><h4>Cohort</h4></Link>
             </li>
-            <li className='flex justify-center'>
-            <Link to="/projects" className="projectNavBar hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-black-700 md:p-0 dark:text-gray-400 md:dark:hover:text-black dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"><h4>Projects</h4></Link>
+            <li className="projectNavBar dark:text-gray-400">
+            <Link to="/projects"><h4>Projects</h4></Link>
             </li>
         </ul>
     </>
