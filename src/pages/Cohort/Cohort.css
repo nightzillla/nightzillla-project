@@ -16,6 +16,7 @@
     margin-left: 450px;
     margin-top: 250px;
     font-family: "FastHand";
+    display: flex;
     }
   .space-wallpaper{
     position: relative;
@@ -34,13 +35,20 @@
     left: 0;
   }
   .NFTJavier{
-    padding-left: 580px;
-    padding-top: 500px;
+    /* padding-left: 580px;
+    padding-top: 500px; */
+    display: flex;
+    position: relative;
+    
   }
   .NFTcardHolders{
-    padding-left: 60px;
+    /* padding-left: 30px;
+    padding-right: 30px;
     padding-top: 50px;
-    padding-bottom: 30px;
+    padding-bottom: 30px; */
+    flex-direction: column;
+    display: flex;
+    position: relative;
   }
   .NFT-img{
     padding-top: 0px;
