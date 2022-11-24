@@ -8,8 +8,8 @@ function GalleryNavBar() {
     <>
         <ul className="flex justify-evenly justify-center galleryNavBar ">
             <h1 className="galleryNightzillaFont pr-12">nightzillla</h1>
-            <li>
-            <Link to="/" className="homeGalleryNavBar dark:text-gray-400"><h4>Home</h4></Link>
+            <li className="homeGalleryNavBar dark:text-gray-400">
+            <Link to="/"><h4>Home</h4></Link>
             </li>
             <li className='aboutMeNavBar dark:text-gray-400'>
             <Link to="/aboutme"><h4>About Me</h4></Link>

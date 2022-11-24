@@ -11,6 +11,9 @@ import SmokeBomb from '../../img/Gallery/smoke-bomb.jpg'
 import Stairs from '../../img/Gallery/stairs.jpg'
 import Hurricane from '../../img/Gallery/hurricane.jpg'
 import GalleryNavBar from './GalleryNavBar'
+import LoneStar from '../../img/Gallery/lonestar.jpg'
+import Portland from '../../img/Gallery/portland.png'
+import Stanely from '../../img/Gallery/stanely.jpg'
 
 function Gallery() {
   return (
@@ -24,43 +27,58 @@ function Gallery() {
           </div>
         </div>
         <div className="wrapper">
-          <div className="box zoom-in">
-          <img className='sedona'src={Sedona}/>
+          <div className="box sedona">
+          <img src={Sedona}/>
           </div>
         </div>
         <div className="wrapper">
-          <div className="box zoom-in">
+          <div className="box new-Mexico">
           <img src={NewMexico}/>
           </div>
         </div>
         <div className="wrapper">
-          <div className="box zoom-in">
+          <div className="box pearl">
           <img src={Pearl}/>
           </div>
         </div>
         <div className="wrapper">
-          <div className="box zoom-in">
+          <div className="box smokeBomb">
           <img src={SmokeBomb}/>
           </div>
         </div>
         <div className="wrapper">
-          <div className="box zoom-in">
+          <div className="box inception">
           <img src={Inception}/>
           </div>
         </div>
-        <div className="wrapper ">
+        <div className="wrapper htown">
           <div className="box zoom-in">
           <img src={HTown}/>
           </div>
         </div>
         <div className="wrapper">
-          <div className="box zoom-in">
+          <div className="box stairs">
           <img src={Stairs}/>
           </div>
         </div>
         <div className="wrapper">
-          <div className="box zoom-in">
+          <div className="box hurricane">
           <img src={Hurricane}/>
+          </div>
+        </div>
+        <div className="wrapper">
+          <div className="box portland">
+          <img src={Portland}/>
+          </div>
+        </div>
+        <div className="wrapper">
+          <div className="box loneStar">
+          <img src={LoneStar}/>
+          </div>
+        </div>
+        <div className="wrapper">
+          <div className="box loneStar">
+          <img src={Stanely}/>
           </div>
         </div>
       </div>

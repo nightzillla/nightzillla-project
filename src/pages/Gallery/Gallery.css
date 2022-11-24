@@ -12,14 +12,16 @@
     font-family: "SpaceRanger2";
     font-size: 20px;
     padding-right: 10px;
+    padding-top: 5px;
 }
-.homeGalleryNavBar:hover {
+.homeGalleryNavBar:hover{
     transform: scale(1.1)!important;
     color: black;
 }
 .aboutMeNavBar {
     font-family: "SpaceRanger2";
     font-size: 20px;
+    padding-top: 5px;
 }
 .aboutMeNavBar:hover{
     transform: scale(1.1);
@@ -28,6 +30,7 @@
 .cohortNavBar {
     font-family: "SpaceRanger2";
     font-size: 20px;
+    padding-top: 5px;
 }
 .cohortNavBar:hover {
     transform: scale(1.1);
@@ -37,6 +40,7 @@
     font-family: "SpaceRanger2";
     font-size: 20px;
     padding-right: 20px;
+    padding-top: 5px;
 }
 .projectNavBar:hover {
     transform: scale(1.1);
@@ -57,16 +61,9 @@
   
 .box {
     position: relative;
-    max-height: 420px;
+    max-height: 70vh;
     border-radius: 4px;
     overflow: hidden;
-    box-shadow:
-    0 1.4px 1.7px rgba(0, 0, 0, 0.017),
-    0 3.3px 4px rgba(0, 0, 0, 0.024),
-    0 6.3px 7.5px rgba(0, 0, 0, 0.03),
-    0 11.2px 13.4px rgba(0, 0, 0, 0.036),
-    0 20.9px 25.1px rgba(0, 0, 0, 0.043),
-    0 50px 60px rgba(0, 0, 0, 0.06);
 }
   /* MEDIA QUERIES */
   /* small devices */
@@ -90,15 +87,39 @@
   }
   /* medium devices */
   @media only screen and (min-width: 768px){
-
+    .galleryNightzillaFont {
+        font-size: 15px;
+    }
+    .homeGalleryNavBar {
+        font-size: 15px;
+    }
+    .aboutMeNavBar {
+        font-size: 15px;
+    }
+    .cohortNavBar {
+        font-size: 15px;
+    }
+    .projectNavBar {
+        font-size: 15px;
+    }
   }
   /* large devices */
   @media screen and (min-width: 992px) {
     /* Custome Fonts */
     .galleryNightzillaFont {
         padding-right: 620px;
-        font-family: "SpaceRanger";
         font-size: 30px;
-        display: flex;
+    }
+    .homeGalleryNavBar {
+        font-size: 20px;
+    }
+    .aboutMeNavBar {
+        font-size: 20px;
+    }
+    .cohortNavBar {
+        font-size: 20px;
+    }
+    .projectNavBar {
+        font-size: 20px;
     }
   }
