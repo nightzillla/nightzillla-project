@@ -131,3 +131,16 @@
     z-index: 3000;
     }
 }
+/* Media query */
+/* small devices */
+@media only screen and (min-width: 576px){
+
+}
+/* medium devices */
+@media screen and (min-width: 960px) {
+
+}
+/* large devices */
+@media screen and (min-width: 1440px){
+
+}

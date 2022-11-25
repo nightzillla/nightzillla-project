@@ -1,1 +1,4 @@
-position fixed will keep it fixed within the video container
+// position fixed will keep it fixed within the video container
+// this helps algin items center 
+// display: flex;
+// justify-content: center;

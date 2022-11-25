@@ -85,8 +85,8 @@
     }
    
   }
-  /* medium devices */
-  @media only screen and (min-width: 768px){
+  /* small devices */
+  @media only screen and (min-width: 576px){
     .galleryNightzillaFont {
         font-size: 15px;
     }
@@ -103,8 +103,8 @@
         font-size: 15px;
     }
   }
-  /* large devices */
-  @media screen and (min-width: 992px) {
+  /* medium devices */
+  @media screen and (min-width: 960px) {
     /* Custome Fonts */
     .galleryNightzillaFont {
         padding-right: 620px;
@@ -122,4 +122,8 @@
     .projectNavBar {
         font-size: 20px;
     }
+  }
+  /* large devices */
+  @media screen and (min-width: 1440px){
+    
   }

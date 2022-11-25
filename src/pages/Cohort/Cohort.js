@@ -37,7 +37,8 @@ function Cohort() {
       <img src={spaceWallpaper}/>
     </div> {/* end of weywot */}
     <div className='weywot'>
-      <h2 className="text-white text-9xl">WeyWot</h2>
+      {/* <h2 className="text-white text-9xl">WeyWot</h2> */}
+      <h2 className="text-9xl">WeyWot</h2>
     </div>
     <div className="NFTJavier Container grid grid-flow-row">
       <NFTcard className="NFTcards"img={Javier} name={"Javier"} href={"https://github.com/jruedas1"}/>

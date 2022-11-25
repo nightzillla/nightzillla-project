@@ -1,7 +1,17 @@
 /* BOOTCAMP WALLPAPER */
 .space-wallpaper{
-  position: relative;
+  position: absolute;
   z-index: -5;
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 2000px;
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 .cohortNavBar{
   position: relative;
@@ -13,32 +23,16 @@
 .weywot{
   position: relative;
   z-index: 1;
-  margin-left: 450px;
-  margin-top: 250px;
   font-family: "FastHand";
   display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  padding-top: 50px;
   }
-.space-wallpaper{
-  position: relative;
-  z-index: -1;
-  /* Set rules to fill background */
-  min-height: 100%;
-  min-width: 1024px;
-
-  /* Set up proportionate scaling */
-  width: 100%;
-  height: auto;
-      
-  /* Set up positioning */
-  position: fixed;
-  top: 0;
-  left: 0;
-}
 .NFTJavier{
-  padding-left: 580px;
-  padding-top: 500px;
   position: relative;
   display: flex;
+  justify-content: center;
 }
 .NFTcardHolders{
   padding-left: 30px;
@@ -67,21 +61,75 @@
   width: 100%;
   height: 100%;
 }
-/* .HomeText:hover{
+/* FONT HOVER */
+.homeTextCohort:hover{
   transform: scale(1.1);
 }
-.AboutMeText:hover {
+.aboutMeTextCohort:hover {
   transform: scale(1.1);
 }
-.GalleryText:hover {
+.galleryTextCohort:hover {
   transform: scale(1.1);
 }
-.ProjectsText:hover {
+.projectsTextCohort:hover {
   transform: scale(1.1);
 }
-.cohortText:hover {
-  transform: scale(1.1);
-} */
 .linkGithub{
   font-family: "FastHand";
+}
+/* Media query */
+/* small devices */
+@media only screen and (min-width: 576px){
+  .weywot {
+    color: white;
+  }
+  .section2 {
+    height: 588px;
+  }
+}
+/* medium devices */
+@media screen and (min-width: 960px) {
+  .weywot {
+    color: blue;
+  }
+  .hamburgerIconWrapperCohortNavBar {
+    width:120px
+  }
+  .homeTextCohort {
+    font-size: 22px;
+  }
+  .aboutMeTextCohort {
+    font-size: 22px;
+  }
+  .galleryTextCohort {
+    font-size: 22px;
+  }
+  .projectsTextCohort {
+    font-size: 22px;
+  }
+
+}
+/* large devices */
+@media screen and (min-width: 1440px){
+  .weywot {
+    color: red;
+  }
+  .NFTcardHolders {
+    padding-left: 40px;
+  }
+  .hamburgerIconWrapperCohortNavBar {
+    width:120px
+  }
+  .homeTextCohort {
+    font-size: 22px;
+  }
+  .aboutMeTextCohort {
+    font-size: 22px;
+  }
+  .galleryTextCohort {
+    font-size: 22px;
+  }
+  .projectsTextCohort {
+    font-size: 22px;
+  }
 }
