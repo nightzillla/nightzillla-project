@@ -13,7 +13,7 @@ import Hurricane from '../../img/Gallery/hurricane.jpg'
 import GalleryNavBar from './GalleryNavBar'
 import LoneStar from '../../img/Gallery/lonestar.jpg'
 import Portland from '../../img/Gallery/portland.png'
-import Stanely from '../../img/Gallery/stanely.jpg'
+import Stanely from '../../img/Gallery/stanely.png'
 
 function Gallery() {
   return (

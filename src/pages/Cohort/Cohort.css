@@ -11,7 +11,7 @@
   z-index: 2;
 }
 .weywot{
-  position: absolute;
+  position: relative;
   z-index: 1;
   margin-left: 450px;
   margin-top: 250px;
@@ -37,6 +37,8 @@
 .NFTJavier{
   padding-left: 580px;
   padding-top: 500px;
+  position: relative;
+  display: flex;
 }
 .NFTcardHolders{
   padding-left: 30px;
