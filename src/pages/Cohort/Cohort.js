@@ -38,14 +38,14 @@ function Cohort() {
     </div> {/* end of weywot */}
     <div className='weywot'>
       {/* <h2 className="text-white text-9xl">WeyWot</h2> */}
-      <h2 className="text-9xl">WeyWot</h2>
+      <h2>WeyWot</h2>
     </div>
     <div className="NFTJavier Container grid grid-flow-row">
       <NFTcard className="NFTcards"img={Javier} name={"Javier"} href={"https://github.com/jruedas1"}/>
     </div>
     <div className="NFTcardHolders flex flex-wrap justify-between ">
       <NFTcard className="NFTcards"img={Danny} name={"nightzillla"} href={"https://github.com/nightzillla"}/>
-      <NFTcard className="NFTcards mt-6"img={Stepbro} name={"x"} href={"https://github.com/Exabiier"}/>
+      <NFTcard className="NFTcards mt-6"img={Stepbro} name={"Exabier"} href={"https://github.com/Exabiier"}/>
       <NFTcard className="NFTcards"img={broMason} name={"Mason"} href={"https://github.com/WoodyMas"}/>
       <NFTcard className="NFTcards"img={David} name={"David"} href={"https://github.com/Lara5595"}/>
       <NFTcard className="NFTcards"img={Jason} name={"Jason"} href={"https://github.com/merrellj-codeup"}/>

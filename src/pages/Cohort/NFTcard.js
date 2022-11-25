@@ -6,7 +6,7 @@ function NFTcard({img, name, href}) {
     <>
     <div className="flex flex-wrap">
           <div className='card-nft'>
-            <article className="main-header overflow-hidden rounded-lg shadow-lg">
+            <article className="fullSizeOfNFTCard main-header overflow-hidden rounded-lg shadow-lg ">
                 <div className="rounded-lg">
                 <img className="NFT-img"src={img}/>
                 </div>

@@ -13,12 +13,17 @@
   top: 0;
   left: 0;
 }
+
+.hamburgerIconWrapperCohortNavBar{
+  z-index: 1000;
+}
 .cohortNavBar{
   position: relative;
   z-index: 500;
 }
 .section2{
   z-index: 2;
+  height: 700px!important;
 }
 .weywot{
   position: relative;
@@ -33,6 +38,7 @@
   position: relative;
   display: flex;
   justify-content: center;
+  z-index: 1;
 }
 .NFTcardHolders{
   padding-left: 30px;
@@ -49,11 +55,6 @@
 .card-nft  {
   z-index: 2;
   padding-bottom:30px;
-}
-.hamburger:hover{
-  transform: scale(1.1);
-  color: rgba(255, 255, 255, 1);
-  box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
 }
 .container {
   position: relative;
@@ -78,19 +79,31 @@
   font-family: "FastHand";
 }
 /* Media query */
-/* small devices */
-@media only screen and (min-width: 576px){
+/* small devices Iphone */
+@media only screen and (min-width: 390px){
   .weywot {
     color: white;
+    font-size: 60px;
   }
   .section2 {
-    height: 588px;
+    height: 820px!important;
   }
+  .NFTJavier {
+    padding-top: 90px;
+  }
+  .fullSizeOfNFTCard {
+    width: 100px;
+  }
+
 }
 /* medium devices */
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 500px) {
   .weywot {
+    font-size: 100px;
     color: blue;
+  }
+  .fullSizeOfNFTCard {
+    width: 200px;
   }
   .hamburgerIconWrapperCohortNavBar {
     width:120px
@@ -113,12 +126,13 @@
 @media screen and (min-width: 1440px){
   .weywot {
     color: red;
+    font-size: 100px;
+  }
+  .fullSizeOfNFTCard {
+    width: 200px;
   }
   .NFTcardHolders {
     padding-left: 40px;
-  }
-  .hamburgerIconWrapperCohortNavBar {
-    width:120px
   }
   .homeTextCohort {
     font-size: 22px;
