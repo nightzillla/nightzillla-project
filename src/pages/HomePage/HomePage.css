@@ -133,11 +133,11 @@
 }
 /* Media query */
 /* small devices */
-@media only screen and (min-width: 576px){
+@media only screen and (min-width: 390px){
 
 }
 /* medium devices */
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 500px) {
 
 }
 /* large devices */
