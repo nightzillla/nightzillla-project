@@ -94,6 +94,9 @@
   .fullSizeOfNFTCard {
     width: 100px;
   }
+  .hamburgerIconWrapperCohortNavBar{
+    width: 30px;
+  }
 
 }
 /* medium devices */
