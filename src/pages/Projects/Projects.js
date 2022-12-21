@@ -1,28 +1,38 @@
 import React from 'react'
+import GalleryNavBar from '../Gallery/GalleryNavBar'
 import Danny from '../../img/Gallery/danny.jpg' 
 
 function Projects() {
   return (
-    <div>Projects 
+    <> 
       <div class="page-wrapper">
+      <GalleryNavBar/>
         <div class="container">
           <div class="flex justify-center">
-            <div class="rounded-lg shadow-lg bg-white max-w-sm">
-              <a href="#!">
-              {/* <NFTcard className="NFTcards"img={naz} name={"naz"} href={"https://github.com/NazarethBriseno"}/> */}
-                <img class={Danny}/>
-                {/* <img class="rounded-t-lg" src="https://mdbootstrap.com/img/new/standard/nature/184.jpg" alt=""/> */}
-              </a>
+            <div class="rounded-lg shadow-lg bg-white max-w-sm shadow-md dark:bg-gray-800 dark:border-gray-700">
+                <img class={Danny} src={Danny}/>
               <div class="p-6">
-                <h5 class="text-gray-900 text-xl font-medium mb-2">Card title</h5>
-                <p class="text-gray-700 text-base mb-4">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Danny Nguyen</h5>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   Some quick example text to build on the card title and make up the bulk of the card's
                   content.
                 </p>
                 <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
               </div>
             </div>
-          </div>
+          </div> {/* END OF JUSTIFY-CENTER */}
+          <div class="flex grid grid-flow-row gap-4 ">I 
+            <div class="rounded-lg shadow-lg bg-white max-w-sm shadow-md dark:bg-gray-800 dark:border-gray-700">
+              <div class="p-6">
+                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Danny Nguyen</h5>
+                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                  Some quick example text to build on the card title and make up the bulk of the card's
+                  content.
+                </p>
+                <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+              </div>
+            </div>
+          </div> {/* END OF JUSTIFY-CENTER */}
             <div class="grid grid-flow-row grid-cols-4 gap-4 ">
                 <div class="columns-1 github-finder-card">
                     <div class="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
@@ -47,11 +57,11 @@ function Projects() {
                           <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
                       </a>
                     </div>
-                </div>{/* END OF BRO MOVIE CARD */}
-            </div> {/* END OF GRID-ROW */}
+            </div>{/* END OF BRO MOVIE CARD */}
+          </div> {/* END OF GRID-ROW */}
         </div> {/* END OF CONTAINER */}
       </div> {/* END OF PAGE-WRAPPER */}  
-    </div>
+    </>
   )
 }
 
