@@ -36,13 +36,13 @@
     transform: scale(1.1);
     color: black;
 }
-.galleryNavBar {
+.galleryNavBars {
     font-family: "SpaceRanger2";
-    font-size: 20px;
+    font-size: 30px;
     padding-right: 20px;
     padding-top: 5px;
 }
-.galleryNavBar:hover {
+.galleryNavBars:hover {
     transform: scale(1.1);
     color: black;
 }
@@ -72,34 +72,39 @@
         font-size: 15px;
     }
     .homeGalleryNavBar {
-        font-size: 10px;
+        font-size: 15px;
     }
     .aboutMeNavBar {
-        font-size: 10px;
+        font-size: 15px;
+        padding-right: 10px;
     }
     .cohortNavBar {
-        font-size: 10px;
+        font-size: 15px;
     }
-    .projectNavBar {
-        font-size: 10px;
+    .galleryNavBars {
+        font-size: 15px;
+        padding-right: 10px;
     }
    
   }
   /* small devices */
-  @media only screen and (min-width: 576px){
+  @media only screen and (max-width: 576px){
     .galleryNightzillaFont {
         font-size: 15px;
     }
     .homeGalleryNavBar {
         font-size: 15px;
+        padding-right: 80px;
     }
     .aboutMeNavBar {
         font-size: 15px;
+        padding-right: 80px;
+        display: block;
     }
     .cohortNavBar {
         font-size: 15px;
     }
-    .projectNavBar {
+    .galleryNavBars {
         font-size: 15px;
     }
   }
@@ -119,7 +124,7 @@
     .cohortNavBar {
         font-size: 20px;
     }
-    .projectNavBar {
+    .galleryNavBars {
         font-size: 20px;
     }
   }
