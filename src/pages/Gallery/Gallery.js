@@ -83,8 +83,6 @@ function Gallery() {
         </div>
       </div>
     </div>
-    {/* <h1 className="portfolioHOne">nightzillla</h1>
-    <img src={World}/> */}
     </>
   )
 }

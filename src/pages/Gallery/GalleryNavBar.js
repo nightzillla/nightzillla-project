@@ -14,12 +14,15 @@ function GalleryNavBar() {
             <li className='aboutMeNavBar dark:text-gray-400'>
             <Link to="/aboutme"><h4>About Me</h4></Link>
             </li>
+            <li className='galleryNavBar dark:text-gray-400'>
+            <Link to="/gallery"><h4>Gallery</h4></Link>
+            </li>
             <li className='cohortNavBar dark:text-gray-400'>
             <Link to="/cohort"><h4>Cohort</h4></Link>
             </li>
-            <li className="projectNavBar dark:text-gray-400">
+            {/* <li className="projectNavBar dark:text-gray-400">
             <Link to="/projects"><h4>Projects</h4></Link>
-            </li>
+            </li> */}
         </ul>
     </>
   )

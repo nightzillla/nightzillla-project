@@ -36,13 +36,13 @@
     transform: scale(1.1);
     color: black;
 }
-.projectNavBar {
+.galleryNavBar {
     font-family: "SpaceRanger2";
     font-size: 20px;
     padding-right: 20px;
     padding-top: 5px;
 }
-.projectNavBar:hover {
+.galleryNavBar:hover {
     transform: scale(1.1);
     color: black;
 }

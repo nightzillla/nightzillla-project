@@ -24,13 +24,16 @@
 }
 /* GLOBAL SCOPE */
 /* FONTS */
-
 h3 {
   font-family: "SpaceRanger2";
   color:#ffff;
 }
 h4{
   font-family: "SpaceRanger2"
+}
+h5 {
+  font-family: "SpaceRanger2";
+  color:#ffff;
 }
 h6 {
   font-family: "FastHand"
