@@ -23,7 +23,7 @@ function NavBar() {
                     </div>
                 </div>
                 <div className="dn-dropdown-menu">
-                <Link className='text-link'to="aboutme"><h5 className="AboutMeText">About Me</h5></Link>
+                <Link className='text-link'to="aboutme"><h5 className="AboutMeText">Profile</h5></Link>
                 <Link className='text-link'to="gallery"><h3 className="GalleryText">Gallery</h3></Link>
                 {/* <Link className='text-link'to="projects"><h3 className="ProjectsText">Projects</h3></Link> */}
                 <Link className='text-link'to="cohort"><h3 className="cohortText">Cohort</h3></Link>

@@ -12,7 +12,7 @@ function GalleryNavBar() {
             <Link to="/"><h4>Home</h4></Link>
             </li>
             <li className='aboutMeNavBar dark:text-gray-400'>
-            <Link to="/aboutme"><h4>About Me</h4></Link>
+            <Link to="/aboutme"><h4>Profile</h4></Link>
             </li>
             <li className='galleryNavBars dark:text-gray-400'>
             <Link to="/gallery"><h4>Gallery</h4></Link>
