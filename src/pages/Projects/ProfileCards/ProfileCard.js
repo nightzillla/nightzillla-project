@@ -10,10 +10,11 @@ function ProfileCard() {
                 <div class="p-6">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Danny Nguyen</h5>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                    Some quick example text to build on the card title and make up the bulk of the card's
-                    content.
+                I am a dedicated Software Developer and Army Veteran with a love for coding, teamwork, and creative thinking. 
                 </p>
-                <button type="button" class=" inline-block px-6 py-2.5 bg-blue-600 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Button</button>
+                  <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                  <a href="https://www.linkedin.com/in/danny-nguyen-nightzillla/">Linkedin</a>
+                </a>
                 </div>
             </div>
         </div> {/* END OF DANNY PROFILE CARD */}
