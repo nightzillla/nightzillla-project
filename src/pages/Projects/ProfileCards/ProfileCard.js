@@ -4,7 +4,7 @@ import Danny from '../../../img/Gallery/danny.jpg'
 function ProfileCard() {
   return (
     <>
-        <div class="flex justify-center danny-Profile-Card">
+        <div class="flex justify-center py-10 pl-15 danny-Profile-Card">
             <div class="rounded-lg shadow-lg bg-white max-w-sm shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <img class={Danny} src={Danny}/>
                 <div class="p-6">

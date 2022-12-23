@@ -1,20 +1,9 @@
 import React from 'react'
-import ProfileCard from './ProfileCards/ProfileCard'
-import GithhubFinder from './ProfileCards/GithhubFinder'
-import BrosMovies from './ProfileCards/BrosMovies'
-import GalleryNavBar from '../Gallery/GalleryNavBar'
 
-function Projects() {
+function BrosMovies() {
   return (
-    <> 
-      <div class="page-wrapper">
-      <GalleryNavBar/>
-        <div class="container">
-          <ProfileCard/>
-          <div class= "grid grid-cols-2 grid-flow-col gap-4">
-            <GithhubFinder/>
-            <BrosMovies/>
-            {/* <div class="bros-Movies">
+    <>
+        <div class="bros-Movies">
               <div class="rounded-lg shadow-lg bg-white max-w-sm shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <div class="p-6">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bros Movies</h5>
@@ -27,12 +16,9 @@ function Projects() {
                   </a>
                 </div>
               </div>
-            </div> END OF BRO MOVIE CARD */}
-          </div>{/* END OF GRID ROW*/}
-        </div> {/* END OF CONTAINER */}
-      </div> {/* END OF PAGE-WRAPPER */}  
+        </div> {/* END OF BRO MOVIE CARD */}
     </>
   )
 }
 
-export default Projects
+export default BrosMovies
