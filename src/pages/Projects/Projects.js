@@ -12,7 +12,7 @@ function Projects() {
           <div class="container">
             <ProfileCard/>
             {/* <div class= "grid grid-cols-2 grid-flow-col gap-4"></div> */}
-              <div class= "grid grid-cols-3 gap-4">
+              <div class= "grid grid-cols-6 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
                 <GithhubFinder/>
                 <BrosMovies/>
                 <BrosMovies/>
