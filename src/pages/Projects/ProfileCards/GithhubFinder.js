@@ -3,7 +3,7 @@ import React from 'react'
 function GithhubFinder() {
   return (
     <>
-        <div class="github-Finder-Card">
+        <div class="github-Finder-Card pl-4">
               <div class="rounded-lg shadow-lg bg-white max-w-sm shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <div class="p-6">
                   <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Github Finder</h5>
