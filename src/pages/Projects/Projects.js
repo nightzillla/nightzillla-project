@@ -1,4 +1,5 @@
 import React from 'react'
+import './Project.css'
 import ProfileCard from './ProfileCards/ProfileCard'
 import GithhubFinder from './ProfileCards/GithhubFinder'
 import BrosMovies from './ProfileCards/BrosMovies'
