@@ -13,9 +13,9 @@ function HomePage() {
         </video>
       </div>{/* END OF VIDEO CONTAINER*/}
       <div className="menuContent">
-      <NavBar/>  
-      <h1 className='welcomeHeader'>welcome to nightzilla</h1> 
+      <NavBar/>
       </div>
+      <h1 className='welcomeHeader'>welcome to nightzilla</h1> 
     </div>{/* END OF LOADING WRAPPER*/}
     </>
   )

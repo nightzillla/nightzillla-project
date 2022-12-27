@@ -11,11 +11,10 @@ function NavBar() {
     const handlerChange = (e) => {
         
         setClick((preState)=> !preState)
-    
     }
     
       return (
-        <div className="section2">
+        <div className="section3">
             <div data-dropdown="parent" className={click ? ("dropdown-parent show") : ("dropdown-parent")}>
                 <div data-dropdown="toggle" className="dropdown-toggle">
                     <div className="hamburgerIconWrapperCohortNavBar">

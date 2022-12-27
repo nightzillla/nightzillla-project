@@ -7,7 +7,7 @@
     z-index: 1;
     display: flex;
     justify-content: center;
-    padding-top: 350px;
+    /* padding-top: 350px; */
 }
 
 .homepageNavBar{
@@ -48,6 +48,7 @@
     overflow: visible!important;
   }
 .video-container video {
+    position: absolute;
     height: 125%;
     min-width: 100%;
     object-fit: cover;
@@ -79,15 +80,15 @@
 }
 .section2{
     position: absolute;
-    height: 100vh;
-    padding-left: 470px;
+    /* height: 100vh; */
+    /* padding-left: 470px; */
     display: flex;
     align-items: center;
     transition: opacity 0.75s, visibilty 0.75s;
     flex-wrap: wrap;
     justify-content: center;
-    bottom: 30%;
-    left: 40%;
+    /* bottom: 30%;
+    left: 40%; */
 }
 .dropdown-parent{
   position: relative;
@@ -131,7 +132,7 @@
 }
 /* MEDIA QUERIES*/
 /* iPhone */
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
     .welcomeHeader{
     font-family: "SpaceRanger";
     font-size: 25px;
@@ -139,7 +140,7 @@
     position: fixed;
     z-index: 3000;
     }
-}
+} */
 /* Media query */
 /* small devices */
 @media only screen and (min-width: 390px){
