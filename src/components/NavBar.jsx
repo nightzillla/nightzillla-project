@@ -2,6 +2,7 @@ import React from 'react'
 import {useState} from 'react'
 import pngwing from '../img/Icons/pngwing.png'
 import {Link} from 'react-router-dom'
+import './NavBar.css'
 
 
 function NavBar() {

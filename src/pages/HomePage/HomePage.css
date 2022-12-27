@@ -55,6 +55,7 @@
 /* HAMBURGER ICON NAV BAR*/
 /* Icon */
 .hamburger{
+    position: relative;
     bottom: 80%;
     left: 60%;
     top: 60%;
