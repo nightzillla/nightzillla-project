@@ -1,7 +1,7 @@
 /* Main Page */
 .welcomeHeader{
     position: relative;
-    padding-top: 60px;
+    padding-top: 300px;
     font-family: "SpaceRanger";
     font-size: 40px;
     color:#ffff;
@@ -47,7 +47,7 @@
 }
 .container {
     overflow: visible!important;
-  }
+}
 .video-container video {
     position: absolute;
     height: 125%;
@@ -62,51 +62,9 @@
     left: 60%;
     top: 40%;
     margin-left: 80px;
-    z-index: 10;
+    z-index: 400;
 }
-/* HOME PAGE NAVBAR */
-.section{
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    transition: opacity 0.75s, visibilty 0.75s;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.section--hidden{
-    opacity: 0;
-    visibility: hidden;
-}
-.section2{
-    position: absolute;
-    padding-top: 60px;
-    /* height: 100vh; */
-    /* padding-left: 470px; */
-    display: flex;
-    align-items: center;
-    transition: opacity 0.75s, visibilty 0.75s;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* bottom: 30%;
-    left: 40%; */
-}
-.dropdown-parent{
-  position: relative;
-}
-.dn-dropdown-menu{
-    position: absolute;
-    top: 100%;
-    display: none;
-}
-.show .dn-dropdown-menu{
-    display: block;
-}
-.text-link {
-    color: inherit;
-    text-decoration: inherit;
-  }
+
 /* HOVER FONTS */
 .AboutMeText {
     font-size: 25px;

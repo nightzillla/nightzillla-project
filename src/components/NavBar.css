@@ -1,4 +1,49 @@
-.section2 {
+/* HOME PAGE NAVBAR */
+.section{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    transition: opacity 0.75s, visibilty 0.75s;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.section--hidden{
+    opacity: 0;
+    visibility: hidden;
+}
+.section2{
     position: relative;
     display: flex;
+    z-index: 500;
+    padding-top: 60px;
+    padding-left: 220px;
+    /* height: 100vh; */
+    /* padding-left: 470px; */
+    display: flex;
+    align-items: center;
+    transition: opacity 0.75s, visibilty 0.75s;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* bottom: 30%;
+    left: 40%; */
 }
+.dropdown-parent{
+  position: relative;
+}
+.dn-dropdown-menu{
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+.show .dn-dropdown-menu{
+    display: block;
+}
+.hamburgerIconWrapper {
+    width: 50px;
+}
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+  }
