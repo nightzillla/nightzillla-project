@@ -104,8 +104,9 @@
 /* small devices */
 @media only screen and (max-width: 375px){
     .welcomeHeader {
-        font-size: 25px;
+        font-size: 30px;
         padding-top: 70px;
+        padding-left: 20px;
     }
 
 }
@@ -116,7 +117,7 @@
 /* large devices */
 @media screen and (max-width: 1440px){
     .welcomeHeader{
-        padding-top: 50px;
+        padding-top: 200px;
     }
 
 }
