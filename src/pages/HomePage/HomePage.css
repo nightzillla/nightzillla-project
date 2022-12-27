@@ -1,7 +1,6 @@
 /* Main Page */
 .welcomeHeader{
     position: relative;
-    padding-top: 300px;
     font-family: "SpaceRanger";
     font-size: 40px;
     color:#ffff;
@@ -103,14 +102,21 @@
 } */
 /* Media query */
 /* small devices */
-@media only screen and (min-width: 390px){
+@media only screen and (max-width: 375px){
+    .welcomeHeader {
+        font-size: 25px;
+        padding-top: 70px;
+    }
 
 }
 /* medium devices */
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 500px) {
 
 }
 /* large devices */
-@media screen and (min-width: 1440px){
+@media screen and (max-width: 1440px){
+    .welcomeHeader{
+        padding-top: 50px;
+    }
 
 }
