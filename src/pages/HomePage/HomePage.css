@@ -1,6 +1,7 @@
 /* Main Page */
 .welcomeHeader{
     position: relative;
+    padding-top: 60px;
     font-family: "SpaceRanger";
     font-size: 40px;
     color:#ffff;
@@ -59,7 +60,7 @@
     position: relative;
     bottom: 80%;
     left: 60%;
-    top: 60%;
+    top: 40%;
     margin-left: 80px;
     z-index: 10;
 }
@@ -80,6 +81,7 @@
 }
 .section2{
     position: absolute;
+    padding-top: 60px;
     /* height: 100vh; */
     /* padding-left: 470px; */
     display: flex;
