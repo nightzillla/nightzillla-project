@@ -1,9 +1,17 @@
 /* Main Page */
 .welcomeHeader{
+    position: relative;
     font-family: "SpaceRanger";
     font-size: 40px;
     color:#ffff;
-    z-index: 3000;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    padding-top: 350px;
+}
+
+.homepageNavBar{
+    position: relative;
 }
 .container {
     position: absolute;
@@ -14,7 +22,8 @@
 }
 .video {
     position: absolute;
-    width: auto;
+    width: 100vw;
+    object-fit: fill;
     height: 100%;
     top: 0;
     left: 0;
@@ -50,7 +59,7 @@
     left: 60%;
     top: 60%;
     margin-left: 80px;
-    z-index: 2;
+    z-index: 10;
 }
 /* HOME PAGE NAVBAR */
 .section{
@@ -69,8 +78,8 @@
 }
 .section2{
     position: absolute;
-    width: 90%;
     height: 100vh;
+    padding-left: 470px;
     display: flex;
     align-items: center;
     transition: opacity 0.75s, visibilty 0.75s;

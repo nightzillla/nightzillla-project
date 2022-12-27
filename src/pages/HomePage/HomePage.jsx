@@ -11,14 +11,12 @@ function HomePage() {
         <video autoPlay muted loop className="smoke">
           <source src={Smoke}/>
         </video>
+      </div>{/* END OF VIDEO CONTAINER*/}
+      <div className="menuContent">
+      <NavBar/>  
+      <h1 className='welcomeHeader'>welcome to nightzilla</h1> 
       </div>
-      </div>
-      <div>
-      </div>
-      <div className="section">
-      <NavBar/>
-        <h1 className='welcomeHeader'>welcome to nightzilla</h1> 
-    </div>
+    </div>{/* END OF LOADING WRAPPER*/}
     </>
   )
 }

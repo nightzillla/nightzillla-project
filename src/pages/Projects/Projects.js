@@ -12,13 +12,14 @@ function Projects() {
         <GalleryNavBar/>
           <div class="container">
             <ProfileCard/>
+            {/* <div class= "flex justify-center grid grid-cols-6 xs:grid-cols-6 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4"> */}
             {/* <div class= "grid grid-cols-2 grid-flow-col gap-4"></div> */}
-              <div class= "grid grid-cols-6 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4">
+          </div> {/* END OF CONTAINER */}
+          <div class= "flex justify-between sm:justify-between py-10 pl-15 pr-15">
                 <GithhubFinder/>
                 <BrosMovies/>
                 <BrosMovies/>
               </div>{/* END OF GRID ROW*/}
-          </div> {/* END OF CONTAINER */}
       </div> {/* END OF PAGE-WRAPPER */}  
     </>
   )
