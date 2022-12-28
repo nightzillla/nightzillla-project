@@ -3,13 +3,13 @@ import './Project.css'
 import ProfileCard from './ProfileCards/ProfileCard'
 import GithhubFinder from './ProfileCards/GithhubFinder'
 import BrosMovies from './ProfileCards/BrosMovies'
-import GalleryNavBar from '../Gallery/GalleryNavBar'
+import ProjectNavBar from './ProjectNavBar'
 
 function Projects() {
   return (
     <> 
       <div class="page-wrapper">
-        <GalleryNavBar/>
+        <ProjectNavBar/>
           <div class="container">
             <ProfileCard/>
             {/* <div class= "flex justify-center grid grid-cols-6 xs:grid-cols-6 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4"> */}
