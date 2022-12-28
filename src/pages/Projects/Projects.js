@@ -15,7 +15,7 @@ function Projects() {
             {/* <div class= "flex justify-center grid grid-cols-6 xs:grid-cols-6 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4"> */}
             {/* <div class= "grid grid-cols-2 grid-flow-col gap-4"></div> */}
           </div> {/* END OF CONTAINER */}
-          <div class= "flex justify-between sm:justify-between py-10 pl-15 pr-15">
+          <div class= "flex justify-between sm:justify-between py-10">
                 <GithhubFinder/>
                 <BrosMovies/>
                 <BrosMovies/>
