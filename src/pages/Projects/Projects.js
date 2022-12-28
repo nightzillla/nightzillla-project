@@ -15,11 +15,17 @@ function Projects() {
             {/* <div class= "flex justify-center grid grid-cols-6 xs:grid-cols-6 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-4"> */}
             {/* <div class= "grid grid-cols-2 grid-flow-col gap-4"></div> */}
           </div> {/* END OF CONTAINER */}
-          <div class= "flex justify-between sm:justify-between py-10">
-                <GithhubFinder/>
-                <BrosMovies/>
-                <BrosMovies/>
-              </div>{/* END OF GRID ROW*/}
+          <div class= "grid sm:grid-cols-3 md:grid-cols-3 py-5">
+            <div class="flex justify-center py-5 pr-4">
+              <GithhubFinder/>
+            </div> {/* END OF GithubFinder */}
+            <div class="flex justify-center py-5 pr-2">
+              <BrosMovies/>
+            </div>
+            <div class="flex justify-center py-5 pr-2">
+              <BrosMovies/>
+            </div>
+          </div>{/* END OF GRID */}
       </div> {/* END OF PAGE-WRAPPER */}  
     </>
   )
