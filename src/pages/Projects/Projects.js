@@ -25,6 +25,12 @@ function Projects() {
             <div class="flex justify-center py-5">
               <BrosMovies/>
             </div>
+            <div class="flex justify-center py-5">
+              <BrosMovies/>
+            </div>
+            <div class="flex justify-center py-5">
+              <BrosMovies/>
+            </div>
           </div>{/* END OF GRID */}
       </div> {/* END OF PAGE-WRAPPER */}  
     </>
