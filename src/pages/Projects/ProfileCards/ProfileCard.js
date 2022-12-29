@@ -6,7 +6,7 @@ function ProfileCard() {
     <>
         <div class="flex justify-center py-10 pl-15 danny-Profile-Card">
             <div class="rounded-lg shadow-lg bg-white max-w-sm shadow-md dark:bg-gray-800 dark:border-gray-700">
-                <img class={Danny} src={Danny}/>
+                <img class={"Danny rounded-lg"} src={Danny}/>
                 <div class="p-6">
                 <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Danny Nguyen</h5>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
