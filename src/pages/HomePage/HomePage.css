@@ -119,9 +119,9 @@
 
 }
 /* large devices */
-@media screen and (max-width: 1440px){
+@media screen and (min-width: 1440px){
     .welcomeHeader{
-        padding-top: 210px;
+        padding-top: 200px;
     }
     .section2 {
         padding-left: 180px;
