@@ -90,17 +90,6 @@
     transform: scale(1.1);
 }
 /* MEDIA QUERIES*/
-/* iPhone */
-/* @media screen and (max-width: 767px) {
-    .welcomeHeader{
-    font-family: "SpaceRanger";
-    font-size: 25px;
-    color:#ffff;
-    position: fixed;
-    z-index: 3000;
-    }
-} */
-/* Media query */
 /* small devices */
 @media only screen and (max-width: 414px){
     .welcomeHeader {
@@ -124,6 +113,7 @@
         padding-top: 200px;
     }
     .section2 {
+        padding-top: 100px;
         padding-left: 180px;
     }
 
