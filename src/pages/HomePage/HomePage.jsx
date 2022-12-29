@@ -15,7 +15,7 @@ function HomePage() {
       <div className="menuContent">
       <NavBar/>
       </div>
-      <h1 className='welcomeHeader'>welcome to nightzilla</h1> 
+      <h1 className='welcomeHeader'>Nightzillla website coming soon!</h1> 
     </div>{/* END OF LOADING WRAPPER*/}
     </>
   )

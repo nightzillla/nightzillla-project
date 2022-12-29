@@ -1,9 +1,11 @@
 import React from 'react'
 import './Project.css'
+import ProjectNavBar from './ProjectNavBar'
 import ProfileCard from './ProfileCards/ProfileCard'
 import GithhubFinder from './ProfileCards/GithhubFinder'
 import BrosMovies from './ProfileCards/BrosMovies'
-import ProjectNavBar from './ProjectNavBar'
+import BrosCoffee from './ProfileCards/BrosCoffee'
+
 
 function Projects() {
   return (
@@ -23,7 +25,7 @@ function Projects() {
               <BrosMovies/>
             </div>
             <div class="flex justify-center py-5">
-              <BrosMovies/>
+              <BrosCoffee/>
             </div>
             <div class="flex justify-center py-5">
               <BrosMovies/>
