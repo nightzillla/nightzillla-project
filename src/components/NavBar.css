@@ -8,6 +8,7 @@
     transition: opacity 0.75s, visibilty 0.75s;
     flex-wrap: wrap;
     justify-content: center;
+    z-index: 1;
 }
 .section--hidden{
     opacity: 0;
@@ -39,7 +40,8 @@
     display: block;
 }
 .hamburgerIconWrapper {
-    width: 50px;
+    width: 40px;
+    z-index: 1;
 }
 .text-link {
     color: inherit;

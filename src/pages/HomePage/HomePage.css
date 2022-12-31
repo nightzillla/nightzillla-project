@@ -7,7 +7,7 @@
     z-index: 1;
     display: flex;
     justify-content: center;
-    padding-top: 280px;
+    /* padding-top: 280px; */
     /* padding-top: 350px; */
 }
 
@@ -95,27 +95,30 @@
 @media only screen and (max-width: 414px){
     .welcomeHeader {
         font-size: 30px;
+        padding-top: 150px;
     }
 }
 /* medium devices */
 @media screen and (max-width: 500px) {
     .welcomeHeader {
-        padding-top: 50px;
-        padding-left: 120px;
+        padding-top: 140px;
+        padding-left: 60px;
+        font-size: 40px;
     }
     .section2 {
-        padding-right: 90px;
+        padding-right: 10px;
+        padding-top: 120px;
     }
 
 }
 /* large devices */
-@media screen and (min-width: 1440px){
+@media screen and (max-width: 1440px){
     .welcomeHeader{
-        padding-top: 200px;
+        padding-top: 120px;
     }
     .section2 {
         padding-top: 100px;
-        padding-left: 180px;
+        padding-left: 400px;
     }
 
 }

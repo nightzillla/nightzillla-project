@@ -5,7 +5,7 @@ import {FaLinkedin} from "react-icons/fa"
 function ProfileCard() {
   return (
     <>
-        <div class="flex justify-center py-10 pl-15 danny-Profile-Card">
+        <div className="flex justify-center py-10 pl-15 danny-Profile-Card">
             <div class="rounded-lg shadow-lg bg-white max-w-sm shadow-md dark:bg-gray-800 dark:border-gray-700">
                 <img class={"Danny rounded-lg"} src={Danny}/>
                 <div class="p-6">
@@ -15,7 +15,7 @@ function ProfileCard() {
                 </p>
                 <div>
                   {/* <a href="#" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"> */}
-                  <FaLinkedin style="white"/>
+                  <FaLinkedin/>
                   <a href="https://www.linkedin.com/in/danny-nguyen-nightzillla/">{FaLinkedin}</a>
                   {/* </a> */}
                 </div>

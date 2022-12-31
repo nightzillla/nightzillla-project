@@ -8,12 +8,7 @@ import BrosCoffee from './ProfileCards/BrosCoffee'
 
 
 function Projects() {
-
-  const onClick = (e) => {
-    e.preventDefault ()
-  }
-
-
+  
   return (
     <> 
       <div class="page-wrapper">
