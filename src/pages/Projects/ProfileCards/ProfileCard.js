@@ -14,12 +14,12 @@ function ProfileCard() {
                   <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
                   I am a dedicated Software Developer and Army Veteran with a love for coding, teamwork, and creative thinking. 
                   </p>
-                  <div className="flex px-5">
+                  <div className="flex">
                     <a href="https://www.linkedin.com/in/danny-nguyen-nightzillla/">
-                      <FaLinkedin className="text-3xl text-white"/>
+                      <FaLinkedin className="text-3xl text-gray-400 hover:bg-white"/>
                     </a>
                     <a href="https://github.com/nightzillla">
-                      <FaGithubSquare className="text-3xl text-white"/>
+                      <FaGithubSquare className="text-3xl text-gray-400 hover:bg-white"/>
                     </a>
                   </div>
                 </div>
