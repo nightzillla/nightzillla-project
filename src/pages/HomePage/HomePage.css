@@ -7,8 +7,6 @@
     z-index: 1;
     display: flex;
     justify-content: center;
-    /* padding-top: 280px; */
-    /* padding-top: 350px; */
 }
 
 .homepageNavBar{
@@ -93,14 +91,18 @@
 /* small devices */
 @media only screen and (min-width: 414px){
     .welcomeHeader {
-        font-size: 30px;
-        padding-top: 150px;
-        padding-left: 50px;
+        font-size: 50px;
+        padding-top: 140px;
+        padding-left: 40px;
+    }
+    .section2 {
+        padding-top: 130px;
+        padding-left: 180px;
     }
   
 }
 /* medium devices */
-@media screen and (max-width: 500px) {
+@media screen and (min-width: 500px) {
     .welcomeHeader {
         padding-top: 140px;
         padding-left: 60px;
@@ -112,14 +114,16 @@
     }
 
 }
-/* large devices */
-@media screen and (min-width: 1300px){
+/* x-large devices */
+/* when large screen is past 1400px the font and navbar will be larger */
+@media screen and (min-width: 1500px){
     .welcomeHeader{
-        padding-top: 120px;
+        padding-top: 260px;
+        font-size: 50px;
     }
     .section2 {
         padding-top: 170px;
-        padding-left: 220px;
+        padding-left: 620px;
     }
 
 }
