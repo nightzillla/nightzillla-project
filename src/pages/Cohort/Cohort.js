@@ -32,7 +32,6 @@ import Josh from '../../img/NFT/Josh.jpg'
 function Cohort() {
   return (
     <>
-    <CohortNavBar className="cohortNavBar"/>
     <div className="space-wallpaper">
       <img src={spaceWallpaper}/>
     </div> {/* end of weywot */}
@@ -40,6 +39,7 @@ function Cohort() {
       {/* <h2 className="text-white text-9xl">WeyWot</h2> */}
       <h2>WeyWot</h2>
     </div>
+    <CohortNavBar className="cohortNavBar grid justify-items-end"/>
     <div className="NFTJavier Container grid grid-flow-row">
       <NFTcard className="NFTcards"img={Javier} name={"Javier"} href={"https://github.com/jruedas1"}/>
     </div>

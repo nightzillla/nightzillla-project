@@ -13,6 +13,9 @@
   top: 0;
   left: 0;
 }
+.section3 {
+  position: relative;
+}
 
 .hamburgerIconWrapperCohortNavBar{
   z-index: 1000;
@@ -76,13 +79,14 @@
 }
 /* Media query */
 /* small devices Iphone */
-@media only screen and (min-width: 390px){
+@media only screen and (min-width: 414px){
   .weywot {
     color: white;
     font-size: 60px;
   }
   .section3 {
-    height: 820px!important;
+    padding-top: 10px;
+    padding-left: 300px;
   }
   .NFTJavier {
     padding-top: 90px;
@@ -93,13 +97,15 @@
   .hamburgerIconWrapperCohortNavBar{
     width: 30px;
   }
-
 }
 /* medium devices */
 @media screen and (min-width: 500px) {
   .weywot {
     font-size: 100px;
     color: blue;
+  }
+  .section3 {
+    padding-left: 900px;
   }
   .fullSizeOfNFTCard {
     width: 200px;
@@ -126,6 +132,9 @@
   .weywot {
     color: red;
     font-size: 120px;
+  }
+  .section3 {
+    padding-left: 1200px;
   }
   .fullSizeOfNFTCard {
     width: 200px;
