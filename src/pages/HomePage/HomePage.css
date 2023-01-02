@@ -93,13 +93,12 @@
     .welcomeHeader {
         font-size: 50px;
         padding-top: 140px;
-        padding-left: 40px;
+        padding-left: 30px;
     }
     .section2 {
         padding-top: 130px;
-        padding-left: 180px;
+        padding-left: 140px;
     }
-  
 }
 /* medium devices */
 @media screen and (min-width: 500px) {
@@ -112,20 +111,17 @@
         padding-top: 180px;
         padding-left: 130px;
     }
-
 }
 /* large devices */
 @media screen and (min-width: 1400px) {
     .welcomeHeader {
         padding-top: 120px;
-        padding-left: 120px;
         font-size: 40px;
     }
     .section2 {
         padding-top: 180px;
         padding-left: 350px;
     }
-
 }
 /* x-large devices */
 /* when large screen is past 1400px the font and navbar will be larger */
