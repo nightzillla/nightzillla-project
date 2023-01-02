@@ -114,16 +114,28 @@
     }
 
 }
+/* large devices */
+@media screen and (min-width: 1400px) {
+    .welcomeHeader {
+        padding-top: 120px;
+        padding-left: 120px;
+        font-size: 40px;
+    }
+    .section2 {
+        padding-top: 180px;
+        padding-left: 350px;
+    }
+
+}
 /* x-large devices */
 /* when large screen is past 1400px the font and navbar will be larger */
 @media screen and (min-width: 1500px){
     .welcomeHeader{
-        padding-top: 260px;
+        padding-top: 220px;
         font-size: 50px;
     }
     .section2 {
         padding-top: 170px;
         padding-left: 620px;
     }
-
 }
