@@ -13,9 +13,9 @@ function ProfileCard() {
         <div className="flex justify-center py-10 pl-15 danny-Profile-Card">
           <div class="rounded-lg shadow-lg bg-white max-w-sm shadow-md dark:bg-gray-800 dark:border-gray-700">
             <img className={"Dannyrounded-lg "} src={Danny}/>
-              <div class="p-6">
-                <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Danny Nguyen</h5>
-                <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              <div className="p-6">
+                <h5 id="dannyNguyen" className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Danny Nguyen</h5>
+                <p id="bio"className="mb-3 font-normal text-gray-700 dark:text-gray-400">
                 I am a dedicated Software Developer and Army Veteran with a love for coding, teamwork, and creative thinking. 
                 </p>
                 <div className="flex">

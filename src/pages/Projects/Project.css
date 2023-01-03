@@ -1,3 +1,9 @@
+/* Custom font for webpage */
+@font-face {
+    font-family: "NewAcademy";
+    src: local("NewAcademy"), url("../../fonts/NEWACADEMY.ttf")format("truetype");
+    font-weight: bold;
+}
 /* GALLERY NAVBAR*/
 .projectNavBar {
     padding-left: 40px;
@@ -18,6 +24,18 @@
     left: 0;
 }
 /* FONT SIZE */
+#dannyNguyen {
+    font-family: "NewAcademy";
+}
+#githubFinder {
+    font-family: "NewAcademy";
+}
+#brosMovie {
+    font-family: "NewAcademy";
+}
+#brosCoffee {
+    font-family: "NewAcademy";
+}
 .projectNightzillaFont {
     font-family: "SpaceRanger";
     font-size: 25px;
@@ -145,7 +163,7 @@
   /* large devices */
   @media screen and (min-width: 1440px){
     .danny-Profile-Card {
-        padding-left: 150px;
+        padding-left: 140px;
     }
     
   }
