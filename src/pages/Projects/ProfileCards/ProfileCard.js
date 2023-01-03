@@ -15,10 +15,10 @@ function ProfileCard() {
               I am a dedicated Software Developer and Army Veteran with a love for coding, teamwork, and creative thinking. 
               </p>
               <div className="flex">
-                <a href="https://www.linkedin.com/in/danny-nguyen-nightzillla/">
+                <a a target="_blank" href="https://www.linkedin.com/in/danny-nguyen-nightzillla/">
                   <FaLinkedin className="text-3xl text-gray-400 hover:bg-white"/>
                 </a>
-                <a href="https://github.com/nightzillla">
+                <a a target="_blank" href="https://github.com/nightzillla">
                   <FaGithubSquare className="text-3xl text-gray-400 hover:bg-white"/>
                 </a>
             </div>
