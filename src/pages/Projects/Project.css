@@ -4,9 +4,23 @@
     padding-top: 30px;
     display: flex;
 }
+.abstractImg{
+    object-fit: fill;
+    position: absolute;
+    z-index: -5;
+    /* Set rules to fill background */
+    /* Set up proportionate scaling */
+    width: 100vw;
+    height: 100vh;
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+}
 /* FONT SIZE */
 .projectNightzillaFont {
     font-family: "SpaceRanger";
+    font-size: 25px;
 }
 .homeProjectNavBar {
     font-family: "SpaceRanger2";
@@ -130,5 +144,8 @@
   }
   /* large devices */
   @media screen and (min-width: 1440px){
+    .danny-Profile-Card {
+        padding-left: 150px;
+    }
     
   }
