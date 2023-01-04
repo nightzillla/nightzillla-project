@@ -23,6 +23,21 @@
     top: 0;
     left: 0;
 }
+/* Buttons */
+.bi-play-btn-fill {
+    color:rgb(157, 163, 174);
+
+}
+.bi-play-btn-fill:hover {
+    color: #ffff;
+}
+.bi-code-square {
+    color:rgb(157, 163, 174);
+    margin-top: .2rem;
+}
+.bi-code-square:hover {
+    color: #ffff;
+}
 /* FONT SIZE */
 #dannyNguyen {
     font-family: "NewAcademy";
