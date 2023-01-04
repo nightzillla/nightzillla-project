@@ -5,6 +5,7 @@ import ProfileCard from './ProfileCards/ProfileCard'
 import GithhubFinder from './ProfileCards/GithhubFinder'
 import BrosMovies from './ProfileCards/BrosMovies'
 import BrosCoffee from './ProfileCards/BrosCoffee'
+import WeatherBros from './ProfileCards/WeatherBros'
 
 
 function Projects() {
@@ -29,7 +30,7 @@ function Projects() {
               <BrosCoffee/>
             </div>
             <div class="flex justify-center py-5">
-              <BrosMovies/>
+              <WeatherBros/>
             </div>
             <div class="flex justify-center py-5">
               <BrosMovies/>

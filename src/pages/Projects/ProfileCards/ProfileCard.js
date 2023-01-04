@@ -10,7 +10,7 @@ function ProfileCard() {
     <div className="abstractBackground">
       <img src={abstractBackground} className="abstractImg"/>
       </div>
-        <div className="flex justify-center py-10 pl-15 danny-Profile-Card">
+        <div className="flex justify-center py-10 danny-Profile-Card">
           <div class="rounded-lg shadow-lg bg-white max-w-sm shadow-md dark:bg-gray-800 dark:border-gray-700">
             <img className={"Dannyrounded-lg "} src={Danny}/>
               <div className="p-6">
@@ -25,7 +25,7 @@ function ProfileCard() {
                   <a a target="_blank" href="https://github.com/nightzillla">
                     <FaGithubSquare className="text-3xl text-gray-400 hover:bg-white"/>
                   </a>
-              </div>
+                </div> 
             </div>
           </div>{/* END OF CARD*/}
         </div> {/* END OF DANNY PROFILE CARD */}
