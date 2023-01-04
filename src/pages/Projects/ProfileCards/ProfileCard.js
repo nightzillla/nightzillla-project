@@ -20,7 +20,7 @@ function ProfileCard() {
                 </p>
                 <div className="flex">
                   <a a target="_blank" href="https://www.linkedin.com/in/danny-nguyen-nightzillla/">
-                    <FaLinkedin className="text-3xl text-gray-400 hover:bg-white"/>
+                    <FaLinkedin className="text-3xl text-gray-400 hover:bg-white mr-[.5rem]"/>
                   </a>
                   <a a target="_blank" href="https://github.com/nightzillla">
                     <FaGithubSquare className="text-3xl text-gray-400 hover:bg-white"/>
