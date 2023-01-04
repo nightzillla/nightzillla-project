@@ -116,7 +116,7 @@
 @media screen and (min-width: 1400px) {
     .welcomeHeader {
         padding-top: 120px;
-        font-size: 40px;
+        font-size: 50px;
     }
     .section2 {
         padding-top: 180px;
@@ -127,7 +127,7 @@
 /* when large screen is past 1400px the font and navbar will be larger */
 @media screen and (min-width: 1500px){
     .welcomeHeader{
-        padding-top: 220px;
+        padding-top: 250px;
         font-size: 50px;
     }
     .section2 {
