@@ -42,6 +42,12 @@
 #dannyNguyen {
     font-family: "NewAcademy";
 }
+#fsd {
+    font-family: "NewAcademy";
+    color: #ffff;
+    font-size: 10px;
+    display: flex;
+}
 #githubFinder {
     font-family: "NewAcademy";
 }

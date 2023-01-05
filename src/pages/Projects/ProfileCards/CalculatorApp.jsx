@@ -7,9 +7,9 @@ function CalculatorApp() {
         <div class="rounded-lg shadow-lg bg-white max-w-sm shadow-md dark:bg-gray-800 dark:border-gray-700">
           <div class="p-6">
             <h5 id="githubFinder" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Calculator App</h5>
-            <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Calculator App was developed in React, that uses the fundamentals of useState and useEffect.
-            </p>
+              <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+              Calculator App was developed in React, that uses the fundamentals of useState and useEffect.
+              </p>
             <div className="flex">
             <a className="mr-[.5rem]"target="_blank" href= " https://calculator-app-1e7f9.web.app">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-play-btn-fill" viewBox="0 0 16 16"><path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814l-3.5-2.5z"/>
