@@ -8,7 +8,7 @@ function CalculatorApp() {
           <div class="p-6">
             <h5 id="githubFinder" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Calculator App</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Calculator was developed in React, that uses the fundamentals of useState and useEffect API.
+            Calculator App was developed in React, that uses the fundamentals of useState and useEffect.
             </p>
             <div className="flex">
             <a className="mr-[.5rem]"target="_blank" href= " https://calculator-app-1e7f9.web.app">
