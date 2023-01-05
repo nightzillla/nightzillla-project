@@ -8,7 +8,7 @@ function BrosCoffee () {
             <div class="p-6">
               <h5 id="brosCoffee"class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bros Coffee</h5>
               <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-              Coffee Bros is a paired-programming project that allows users to view, sort, and edit a list of coffee listed by name and roast type.
+              A paired-programming project that allows users to view, sort, and edit a list of coffee listed by name and roast type.
               </p>
               <div className="flex">
               <a className="mr-[.5rem]"target="_blank" href= "https://nightzillla.github.io/bros-coffee/">

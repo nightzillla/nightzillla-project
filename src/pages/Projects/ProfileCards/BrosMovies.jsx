@@ -8,7 +8,7 @@ function BrosMovies() {
                 <div class="p-6">
                   <h5 id="brosMovie" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bros Movies</h5>
                   <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  Bros movie is a solo project that was developed in React that lets users search up their favorite movies using the TMDb API.
+                  Individual project that was developed in React that let's users search up their favorite movies using the TMDb API.
                   </p>
                   <div className="flex">
                   <a className="mr-[.5rem]"target="_blank" href= "https://bros-movie.web.app/">

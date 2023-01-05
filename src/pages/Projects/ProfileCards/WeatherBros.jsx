@@ -8,7 +8,7 @@ function WeatherBros() {
             <div class="p-6">
                 <h5 id="weatherBros"class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Weather Bros</h5>
                 <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                Weather Bros uses map box geocoding api which allow users to search for an address and places by name or coordinates.
+                Utilizes the Mapbox Geocoding API to enable users to search for addresses and locations using either their name or coordinates.
                 </p>
                 <div className="flex">
                 <a className="mr-[.5rem]"target="_blank" href= "https://weather-bros.web.app/">

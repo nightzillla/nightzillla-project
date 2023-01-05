@@ -14,10 +14,9 @@ function ProfileCard() {
           <div class="rounded-lg shadow-lg bg-white max-w-sm shadow-md dark:bg-gray-800 dark:border-gray-700">
             <img className={"Danny rounded-lg "} src={Danny}/>
               <div className="p-6">
-                <h5 id="dannyNguyen" className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Danny Nguyen</h5>Full Stack Developer
+                <h5 id="dannyNguyen" className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Danny Nguyen</h5><h5 className="fsd">Full Stack Developer</h5>
                 <p id="bio"className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                I am a dedicated Software Developer with a passion for photography love for coding, teamwork, and creative thinking.  fsdfsdfsdfafa
-                dfsdfsdfsdf
+                As a software developer, I am committed to my work and have a passion for both coding and photography. I enjoy collaborating with others and bringing an artistic touch to my projects.
                 </p>
                 <div className="flex">
                   <a a target="_blank" href="https://www.linkedin.com/in/danny-nguyen-nightzillla/">
