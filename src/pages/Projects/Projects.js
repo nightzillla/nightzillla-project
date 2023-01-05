@@ -6,6 +6,7 @@ import GithhubFinder from './ProfileCards/GithhubFinder'
 import BrosMovies from './ProfileCards/BrosMovies'
 import BrosCoffee from './ProfileCards/BrosCoffee'
 import WeatherBros from './ProfileCards/WeatherBros'
+import CalculatorApp from './ProfileCards/CalculatorApp'
 
 
 function Projects() {
@@ -29,6 +30,9 @@ function Projects() {
             </div>
             <div class="flex justify-center py-5">
               <WeatherBros/>
+            </div>
+            <div class="flex justify-center py-5">
+              <CalculatorApp/>
             </div>
           </div>{/* END OF GRID */}
       </div> {/* END OF PAGE-WRAPPER */}  
