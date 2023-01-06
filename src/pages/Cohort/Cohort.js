@@ -29,6 +29,7 @@ import Caleb from '../../img/NFT/Caleb.png'
 import Test from '../../img/NFT/Test.png'
 import Gonzo from '../../img/NFT/Gonzo.png'
 import Josh from '../../img/NFT/Josh.jpg'
+
 function Cohort() {
   return (
     <>
