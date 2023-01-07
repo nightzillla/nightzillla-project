@@ -10,7 +10,7 @@ function TravelBros () {
           <div class="p-6">
             <h5 id="githubFinder" class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Travel Bros</h5>
             <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
-            Create a budget-conscious website for planning adventures that utilizes Java, JavaScript, and Springboot.
+            (Still in progress)Create a budget-conscious website for planning adventures that utilizes Java, JavaScript, and Springboot.
             </p>
             <div className="flex">
             <a className="mr-[.5rem]"target="_blank" href= "http://travel-bros.com/">

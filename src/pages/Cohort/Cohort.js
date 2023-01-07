@@ -33,7 +33,7 @@ import Josh from '../../img/NFT/Josh.jpg'
 function Cohort() {
   return (
     <>
-    <div className="page-wrapper">
+    <div className="cohort-page-wrapper">
       <img className="space-wallpaper"src={spaceWallpaper}/>
       <div className='weywot'>
         <h2>WeyWot</h2>
