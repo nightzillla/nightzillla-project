@@ -8,6 +8,7 @@ import BrosCoffee from './ProfileCards/BrosCoffee'
 import WeatherBros from './ProfileCards/WeatherBros'
 import CalculatorApp from './ProfileCards/CalculatorApp'
 import TravelBros from './ProfileCards/TravelBros'
+import abstractBackground from '../../img/Wallpaper/abstract-background.jpg'
 
 
 function Projects() {
@@ -15,15 +16,17 @@ function Projects() {
   return (
     <> 
       <div className="page-wrapper">
+  
+          <img className="abstractImg"src={abstractBackground}/>
         <ProjectNavBar/>
-          <div className="container">
-            <ProfileCard/>
-          </div> {/* END OF CONTAINER */}
+          {/* <div className="container w-[100%]"> */}
+            <ProfileCard />
+          {/* </div> END OF CONTAINER */}
           <div className= "flex justify-center grid sm:grid-cols-3 md:grid-cols-3 py-5">
-          <div className="flex justify-center py-5 pr-4">
+          <div className="flex justify-center py-5">
               <TravelBros/>
             </div> {/* END OF GithubFinder */}
-            <div className="flex justify-center py-5 pr-4">
+            <div className="flex justify-center py-5">
               <GithhubFinder/>
             </div> {/* END OF GithubFinder */}
             <div className="flex justify-center py-5">

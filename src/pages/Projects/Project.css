@@ -4,6 +4,7 @@
     src: local("NewAcademy"), url("../../fonts/NEWACADEMY.ttf")format("truetype");
     font-weight: bold;
 }
+
 /* GALLERY NAVBAR*/
 .projectNavBar {
     padding-left: 40px;
@@ -11,17 +12,10 @@
     display: flex;
 }
 .abstractImg{
-    object-fit: fill;
-    position: absolute;
     z-index: -5;
-    /* Set rules to fill background */
-    /* Set up proportionate scaling */
-    width: 100vw;
-    height: 100vh;
-    /* Set up positioning */
     position: fixed;
-    top: 0;
-    left: 0;
+    height: 100vh;
+    width: 100%;
 }
 /* Buttons */
 .bi-play-btn-fill {
@@ -145,32 +139,9 @@
         padding-right: 80px;
     }
   }
-  /* small devices
-  @media only screen and (max-width: 576px){
-    .galleryNightzillaFont {
-        font-size: 15px;
-    }
-    .homeGalleryNavBar {
-        font-size: 15px;
-        padding-right: 80px;
-    }
-    .aboutMeNavBar {
-        font-size: 15px;
-        padding-right: 80px;
-        display: block;
-    }
-    .cohortNavBar {
-        font-size: 15px;
-    }
-    .galleryNavBars {
-        font-size: 15px;
-    }
-  } */
   /* medium devices */
   @media screen and (min-width: 960px) {
-    .danny-Profile-Card {
-        padding-left: 180px;
-    }
+
     /* Custome Fonts */
     .galleryNightzillaFont {
         padding-right: 620px;
@@ -191,8 +162,4 @@
   }
   /* large devices */
   @media screen and (min-width: 1440px){
-    .danny-Profile-Card {
-        padding-left: 150px;
-    }
-    
   }
