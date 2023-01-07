@@ -5,18 +5,14 @@
     font-weight: bold;
 }
 /* BACK GROUND IMAGE */
+.page-wrapper-project {
+    background-image: url(../../img/Wallpaper/abstract-background.jpg);
+    background-size: cover;
+}
 .abstractImg{
     z-index: -5;
-    position: fixed;
-    height: 100vh;
-    width: 100%;
-    display: flex; 
     position: absolute;
-}
-.abstractBackground {
-    width: 100vw;
-    height: 100vh;
-    position: fixed;
+    background-size: cover;
 }
 /* Buttons */
 .bi-play-btn-fill {
@@ -90,7 +86,6 @@
     margin-top: 60px;
     padding: 0 30px;
 }
-  
 .wrapper {
     width: 33.3%;
     height: 100%;
@@ -130,7 +125,6 @@
   }
   /* medium devices */
   @media screen and (min-width: 960px) {
-
     /* Custome Fonts */
     .galleryNightzillaFont {
         padding-right: 620px;

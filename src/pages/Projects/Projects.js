@@ -15,9 +15,7 @@ function Projects() {
   
   return (
     <> 
-      <div className="page-wrapper">
-  
-          <img className="abstractImg"src={abstractBackground}/>
+      <div className="page-wrapper-project">
         <ProjectNavBar/>
           {/* <div className="container w-[100%]"> */}
             <ProfileCard />
