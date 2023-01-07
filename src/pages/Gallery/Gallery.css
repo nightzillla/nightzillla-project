@@ -1,51 +1,30 @@
-/* GALLERY NAVBAR*/
-.galleryNavBar {
-    padding-left: 40px;
-    padding-top: 30px;
-    display: flex;
-}
 /* FONT SIZE */
 .galleryNightzillaFont {
     font-family: "SpaceRanger";
 }
-.homeGalleryNavBar {
+.galleryHomeGalleryNavBar {
     font-family: "SpaceRanger2";
     font-size: 20px;
-    padding-right: 10px;
-    padding-top: 5px;
 }
-.homeGalleryNavBar:hover{
+.galleryHomeGalleryNavBar:hover{
     transform: scale(1.1)!important;
     color: black;
 }
-.aboutMeNavBar {
+.galleryProfileNavBar {
     font-family: "SpaceRanger2";
-    font-size: 20px;
-    padding-top: 5px;
 }
-.aboutMeNavBar:hover{
+.galleryProfileNavBar:hover{
     transform: scale(1.1);
     color: black;
 }
-.cohortNavBar {
+.galleryCohortNavBar  {
     font-family: "SpaceRanger2";
-    font-size: 20px;
-    padding-top: 5px;
 }
-.cohortNavBar:hover {
+.galleryCohortNavBar:hover {
     transform: scale(1.1);
     color: black;
 }
-.galleryNavBars {
-    font-family: "SpaceRanger2";
-    font-size: 30px;
-    padding-right: 20px;
-    padding-top: 5px;
-}
-.galleryNavBars:hover {
-    transform: scale(1.1);
-    color: black;
-}
+
 .img-content {
     display: flex;
     flex-wrap: wrap;
@@ -69,39 +48,31 @@
   /* small devices */
   @media only screen and (max-width: 600px){
     .galleryNightzillaFont {
+        font-size: 10px;
+    }
+    .galleryHomeGalleryNavBar {
         font-size: 15px;
     }
-    .homeGalleryNavBar {
+    .galleryProfileNavBar {
         font-size: 15px;
     }
-    .aboutMeNavBar {
+    .galleryCohortNavBar  {
         font-size: 15px;
-        padding-right: 10px;
-    }
-    .cohortNavBar {
-        font-size: 15px;
-    }
-    .galleryNavBars {
-        font-size: 15px;
-        padding-right: 10px;
     }
    
   }
   /* small devices */
   @media only screen and (max-width: 576px){
     .galleryNightzillaFont {
+        font-size: 20px;
+    }
+    .galleryHomeGalleryNavBar {
         font-size: 15px;
     }
-    .homeGalleryNavBar {
+    .galleryProfileNavBar{
         font-size: 15px;
-        padding-right: 80px;
     }
-    .aboutMeNavBar {
-        font-size: 15px;
-        padding-right: 80px;
-        display: block;
-    }
-    .cohortNavBar {
+    .galleryCohortNavBar  {
         font-size: 15px;
     }
     .galleryNavBars {
@@ -112,20 +83,21 @@
   @media screen and (min-width: 960px) {
     /* Custome Fonts */
     .galleryNightzillaFont {
-        padding-right: 620px;
-        font-size: 30px;
+        font-size: 50px;
     }
-    .homeGalleryNavBar {
+    .galleryHomeGalleryNavBar {
         font-size: 20px;
+        padding-top: 5px;
     }
-    .aboutMeNavBar {
+    .galleryProfileNavBar {
         font-size: 20px;
+        font-size: 20px;
+        padding-top: 5px;
     }
-    .cohortNavBar {
+    .galleryCohortNavBar  {
         font-size: 20px;
-    }
-    .galleryNavBars {
         font-size: 20px;
+        padding-top: 5px;
     }
   }
   /* large devices */
