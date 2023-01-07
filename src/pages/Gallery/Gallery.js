@@ -18,71 +18,74 @@ import Stanely from '../../img/Gallery/stanely.png'
 function Gallery() {
   return (
     <>
-    <GalleryNavBar/>
-    <div className="img-container">
-      <div className="img-content">
-        <div className="wrapper">
-          <div className="box postcard">
-          <img src={World}/>
+    <div className='gallery-page-wrapper'>
+      <GalleryNavBar/>
+      <div className="img-container">
+        <div className="img-content">
+          <div className="wrapper">
+            <div className="box postcard">
+            <img src={World}/>
+            </div>
           </div>
-        </div>
-        <div className="wrapper">
-          <div className="box sedona">
-          <img src={Sedona}/>
+          <div className="wrapper">
+            <div className="box sedona">
+            <img src={Sedona}/>
+            </div>
           </div>
-        </div>
-        <div className="wrapper">
-          <div className="box new-Mexico">
-          <img src={NewMexico}/>
+          <div className="wrapper">
+            <div className="box new-Mexico">
+            <img src={NewMexico}/>
+            </div>
           </div>
-        </div>
-        <div className="wrapper">
-          <div className="box pearl">
-          <img src={Pearl}/>
+          <div className="wrapper">
+            <div className="box pearl">
+            <img src={Pearl}/>
+            </div>
           </div>
-        </div>
-        <div className="wrapper">
-          <div className="box smokeBomb">
-          <img src={SmokeBomb}/>
+          <div className="wrapper">
+            <div className="box smokeBomb">
+            <img src={SmokeBomb}/>
+            </div>
           </div>
-        </div>
-        <div className="wrapper">
-          <div className="box inception">
-          <img src={Inception}/>
+          <div className="wrapper">
+            <div className="box inception">
+            <img src={Inception}/>
+            </div>
           </div>
-        </div>
-        <div className="wrapper htown">
-          <div className="box zoom-in">
-          <img src={HTown}/>
+          <div className="wrapper htown">
+            <div className="box zoom-in">
+            <img src={HTown}/>
+            </div>
           </div>
-        </div>
-        <div className="wrapper">
-          <div className="box stairs">
-          <img src={Stairs}/>
+          <div className="wrapper">
+            <div className="box stairs">
+            <img src={Stairs}/>
+            </div>
           </div>
-        </div>
-        <div className="wrapper">
-          <div className="box hurricane">
-          <img src={Hurricane}/>
+          <div className="wrapper">
+            <div className="box hurricane">
+            <img src={Hurricane}/>
+            </div>
           </div>
-        </div>
-        <div className="wrapper">
-          <div className="box portland">
-          <img src={Portland}/>
+          <div className="wrapper">
+            <div className="box portland">
+            <img src={Portland}/>
+            </div>
           </div>
-        </div>
-        <div className="wrapper">
-          <div className="box loneStar">
-          <img src={LoneStar}/>
+          <div className="wrapper">
+            <div className="box loneStar">
+            <img src={LoneStar}/>
+            </div>
           </div>
-        </div>
-        <div className="wrapper">
-          <div className="box loneStar">
-          <img src={Stanely}/>
+          <div className="wrapper">
+            <div className="box loneStar">
+            <img src={Stanely}/>
+            </div>
           </div>
-        </div>
-      </div>
-    </div>
+        </div>{/* END OF IMG-CONTENT*/}
+      </div>{/* END OF IMG-CONTAINER */}
+    </div>{/* END OF GALLERY PAGE WRAPPER */}
+    
     </>
   )
 }

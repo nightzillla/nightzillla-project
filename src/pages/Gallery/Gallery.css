@@ -1,3 +1,7 @@
+.gallery-page-wrapper {
+    background-image: url(../../img/Wallpaper/abstract-background.jpg);
+    background-size: cover;
+}
 /* FONT SIZE */
 .galleryNightzillaFont {
     font-family: "SpaceRanger";
