@@ -11,7 +11,7 @@ function ProjectNavBar() {
             <li className="homeProjectNavBar dark:text-gray-400">
             <Link to="/"><h4>Home</h4></Link>
             </li>
-            <li className='galleryNavBar dark:text-gray-400'>
+            <li className='projectGalleryNavBar dark:text-gray-400'>
             <Link to="/gallery"><h4>Gallery</h4></Link>
             </li>
             <li className='cohortNavBar dark:text-gray-400'>

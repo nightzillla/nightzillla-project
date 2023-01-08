@@ -11,7 +11,7 @@
     font-size: 20px;
 }
 .galleryHomeGalleryNavBar:hover{
-    transform: scale(1.1)!important;
+    transform: scale(1.1);
     color: black;
 }
 .galleryProfileNavBar {
@@ -24,7 +24,7 @@
 .galleryCohortNavBar  {
     font-family: "SpaceRanger2";
 }
-.galleryCohortNavBar:hover {
+.galleryCohortNavBar:hover{
     transform: scale(1.1);
     color: black;
 }
