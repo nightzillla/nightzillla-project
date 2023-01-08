@@ -110,17 +110,11 @@
     .homeProjectNavBar {
         font-size: 16px;
     }
-    .galleryNavBar{
+    .projectGalleryNavBar{
         font-size: 16px;
     }
     .cohortNavBar {
         font-size: 16px;
-    }
-    .galleryNightzillaFont {
-        font-size: 16px;
-    }
-    .homeGalleryNavBar {
-        font-size: 18px;
     }
   }
   /* medium devices */
